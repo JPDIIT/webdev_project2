@@ -1,5 +1,6 @@
 body {
-	background-image: url("../images/star_chart.png");
+  background: radial-gradient(circle, transparent 65%, 70%, black), url("../images/star_chart.png");
+	/*background-image: url("../images/star_chart.png");*/
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
