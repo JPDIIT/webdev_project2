@@ -73,6 +73,7 @@ header{
   height: 7em;
   bottom: 0em;
   z-index: 1;
-  text-align: center; 
-  background-color: black;
+  text-align: center;
+  background: radial-gradient(ellipse 80% 4em at 50% -2.25em, transparent 100%, 0%, black), radial-gradient(ellipse 80% 4em at 50% -2.25em, transparent 60%, black);
+  background-color: transparent;
 }
