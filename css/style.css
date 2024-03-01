@@ -26,6 +26,7 @@ header{
   float: left;
   width: 100%;
   top: 5.25em;
+  background: radial-gradient(ellipse 80% 4em at 50% 6.25em, transparent 100%, 0%, black), radial-gradient(ellipse 80% 4em at 50% 6.25em, transparent 60%, black);
   background-color: transparent;
   position: fixed;
   z-index: 2;
