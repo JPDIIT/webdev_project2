@@ -62,6 +62,7 @@ header{
 #main-content {
   position: relative;
   top: 7em;
+  padding-bottom: 7em;
   width: 65%;
   margin: 0 auto;
 }
