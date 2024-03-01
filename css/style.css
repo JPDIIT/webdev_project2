@@ -57,3 +57,10 @@ header{
   background-color: #ccc;
   color: #333;
 }
+
+#main-content {
+  position: relative;
+  top: 7em;
+  width: 65%;
+  margin: 0 auto;
+}
