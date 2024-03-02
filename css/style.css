@@ -1,150 +1,65 @@
+/* Mobile First */
 body {
   background: radial-gradient(circle, transparent 65%, 70%, black), url("../images/star_chart.png");
-	/*background-image: url("../images/star_chart.png");*/
-	background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
-	color: white;
+  color: white;
 }
-
+  
 header{
-  background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 50%, black), url("../images/milky_way1.png");  
+  background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 70%, black), url("../images/milky_way1.png");  
   background-color: black;
-  background-attachment: fixed;
+  background-attachment: local;
   background-repeat: no-repeat;
   background-position: center top;
-  position: fixed;
+  position: relative;
   width: 100%;
-  height: 7em;
+  height: 6em;
   top: 0em;
   z-index: 1;
   text-align: center;
 }
 
-header h1 {
-  font-family: "Bruno Ace", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 #main-nav {
   float: left;
   width: 100%;
-  top: 5.25em;
-  background: radial-gradient(ellipse 80% 4em at 50% 6.25em, transparent 100%, 0%, black), radial-gradient(ellipse 80% 4em at 50% 6.25em, transparent 60%, black);
-  background-color: transparent;
-  position: fixed;
+  top: 0em;
+  background-color: black;
+  position: relative;
   z-index: 2;
 }
 
 #main-nav ul {
   list-style-type: none;
-  margin: 0;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
   padding: 0;
   float: left;
   position: relative;
-  left:50%;
 }
 
 #main-nav ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-}
-
-#main-nav ul li a {
-  padding: 1em 2.5em;
-  display: block;
-  text-decoration: none;
-  color: #ccc;
-}
-
-#main-nav ul li a:hover {
-  background-color: #ccc;
-  color: #333;
+  width: 100%;
+  text-align: center;
 }
 
 #main-content {
   position: relative;
-  top: 7em;
+  top: 1em;
   padding-bottom: 7em;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 
 #footer {
-  position: fixed;
-  width: 100%;
-  height: 7em;
-  bottom: 0em;
-  z-index: 1;
-  text-align: center;
-  background: radial-gradient(ellipse 80% 4em at 50% -2.25em, transparent 100%, 0%, black), radial-gradient(ellipse 80% 4em at 50% -2.25em, transparent 60%, black);
-  background-color: transparent;
-}
-
-/*.centered {
-  text-align: center;
-}*/
-
-div.centered {
-  margin:auto;
-  left:0;
-  right:0;
-  text-align: center;
-}
-
-div.centered img {
-  max-width: 100%;
-  max-height: 100%;
   position: relative;
-  margin:auto;
-  left:0;
-  right:0;
 }
 
-div.right-image {
-  float: right;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  margin-left: 0.75em;
-  text-align: center;
-}
-
-div.left-image {
-  float: left;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  margin-right: 0.75em;
-  text-align: center;
-}
-
-.clear-both {
-  clear: both;
-}
-
-.clear-left {
-  clear: left;
-}
-
-.clear-right {
-  clear: right;
-}
-
-h2.resume_category {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-p.organization {
-  font-style: italic;
-}
-
-/* Tablet and low-res desktop/laptop */
-@media screen and (max-width: 800px) {
+/* Tablet and very low-res desktop/laptop */
+@media screen and (min-width: 640px) {
   header{
     background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 50%, black), url("../images/milky_way1.png");  
     background-color: black;
@@ -202,56 +117,150 @@ p.organization {
   }
 }
 
-/* Phones (and 20th-century computer 'monitors') */
-@media screen and (max-width: 640px) {
-  header{
-    background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 70%, black), url("../images/milky_way1.png");  
+/* Desktops and Laptops*/
+@media screen and (min-width: 800px) {
+  body {
+    background: radial-gradient(circle, transparent 65%, 70%, black), url("../images/star_chart.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: black;
-    background-attachment: local;
+    color: white;
+  }
+
+  header{
+    background: radial-gradient(ellipse 60% 12% at 50% 3em, transparent 40%, 50%, black), url("../images/milky_way1.png");  
+    background-color: black;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
-    position: relative;
+    position: fixed;
     width: 100%;
-    height: 6em;
+    height: 7em;
     top: 0em;
     z-index: 1;
     text-align: center;
   }
-  
+
+  header h1 {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   #main-nav {
     float: left;
     width: 100%;
-    top: 0em;
-    background-color: black;
-    position: relative;
+    top: 5.25em;
+    background: radial-gradient(ellipse 80% 4em at 50% 6.25em, transparent 100%, 0%, black), radial-gradient(ellipse 80% 4em at 50% 6.25em, transparent 60%, black);
+    background-color: transparent;
+    position: fixed;
     z-index: 2;
   }
-  
+
   #main-nav ul {
     list-style-type: none;
-    width:100%;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
     padding: 0;
     float: left;
     position: relative;
+    left:50%;
   }
 
   #main-nav ul li {
-    width: 100%;
-    text-align: center;
+    float: left;
+    position: relative;
+    right: 50%;
   }
-  
+
+  #main-nav ul li a {
+    padding: 1em 2.5em;
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  #main-nav ul li a:hover {
+    background-color: #ccc;
+    color: #333;
+  }
+
   #main-content {
     position: relative;
-    top: 1em;
+    top: 7em;
     padding-bottom: 7em;
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
   }
-  
+
   #footer {
+    position: fixed;
+    width: 100%;
+    height: 7em;
+    bottom: 0em;
+    z-index: 1;
+    text-align: center;
+    background: radial-gradient(ellipse 80% 4em at 50% -2.25em, transparent 100%, 0%, black), radial-gradient(ellipse 80% 4em at 50% -2.25em, transparent 60%, black);
+    background-color: transparent;
+  }
+
+  /*.centered {
+    text-align: center;
+  }*/
+
+  div.centered {
+    margin:auto;
+    left:0;
+    right:0;
+    text-align: center;
+  }
+
+  div.centered img {
+    max-width: 100%;
+    max-height: 100%;
     position: relative;
+    margin:auto;
+    left:0;
+    right:0;
+  }
+
+  div.right-image {
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin-left: 0.75em;
+    text-align: center;
+  }
+
+  div.left-image {
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin-right: 0.75em;
+    text-align: center;
+  }
+
+  .clear-both {
+    clear: both;
+  }
+
+  .clear-left {
+    clear: left;
+  }
+
+  .clear-right {
+    clear: right;
+  }
+
+  h2.resume_category {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p.organization {
+    font-style: italic;
   }
 }
 
