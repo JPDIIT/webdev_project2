@@ -112,3 +112,28 @@ h2.resume_category {
 p.organization {
   font-style: italic;
 }
+
+@media print {
+  body {
+    background: none;
+    background-color: white;
+    color: black;
+  }
+  
+  #resume-header, #main-nav, #footer {
+    visibility: collapse;
+  }
+  
+  #astro-header, #coord-header {
+    background: none;
+    background-color: white;
+    position: relative;
+  }
+  
+  #main-content {
+    position: relative;
+    top: 0em;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
