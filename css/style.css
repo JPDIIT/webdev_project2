@@ -104,6 +104,10 @@ div.centered img {
   right:0;
 }
 
+div.right-image {
+  float: right;
+}
+
 h2.resume_category {
   text-align: center;
   text-transform: uppercase;
