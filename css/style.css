@@ -113,6 +113,15 @@ div.right-image {
   text-align: center;
 }
 
+div.left-image {
+  float: left;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  margin-left: 0.75em;
+  text-align: center;
+}
+
 h2.resume_category {
   text-align: center;
   text-transform: uppercase;
