@@ -88,18 +88,27 @@ header h1 {
   text-align: center;
 }*/
 
-.centered {
+div.centered {
   margin:auto;
   left:0;
   right:0;
   text-align: center;
 }
 
-.centered img {
+div.centered img {
   max-width: 100%;
   max-height: 100%;
   position: relative;
   margin:auto;
   left:0;
   right:0;
+}
+
+h2.resume_category {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.organization {
+  font-style: italic;
 }
