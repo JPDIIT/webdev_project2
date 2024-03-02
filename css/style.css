@@ -106,6 +106,10 @@ div.centered img {
 
 div.right-image {
   float: right;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  text-align: center;
 }
 
 h2.resume_category {
