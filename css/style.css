@@ -122,6 +122,10 @@ div.left-image {
   text-align: center;
 }
 
+.clear-both {
+  clear: both;
+}
+
 h2.resume_category {
   text-align: center;
   text-transform: uppercase;
