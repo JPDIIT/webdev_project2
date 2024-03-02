@@ -131,7 +131,7 @@ div.left-image {
 }
 
 .clear-right {
-  clear: left;
+  clear: right;
 }
 
 h2.resume_category {
