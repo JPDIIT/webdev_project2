@@ -100,10 +100,17 @@ header h1 {
   background-color: transparent;
 }
 
-#footer h6{
-    padding: 0em;
-    margin: 0em 0em 0em 0em;
-  }
+#footer #disc-box {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+#footer .disclaimer {
+  padding: 0em;
+  margin: 0em 0em 0em 0em;
+  font-style: italic;
+  font-size:smaller
+}
 
 .centered {
   margin:auto;
