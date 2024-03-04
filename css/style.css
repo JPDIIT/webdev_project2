@@ -80,6 +80,14 @@ header h1 {
   margin: 0 auto;
 }
 
+#resume-content {
+  position: relative;
+  top: 1em;
+  padding-bottom: 7em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 #footer {
   position: relative;
   width: 100%;
@@ -218,6 +226,14 @@ p.organization {
     margin: 0 auto;
   }
   
+  #resume-content {
+    position: relative;
+    top: 7em;
+    padding-bottom: 7em;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
   #footer {
     position: fixed;
     padding: 3em 0 0;
@@ -300,6 +316,14 @@ p.organization {
     top: 7em;
     padding-bottom: 7em;
     width: 65%;
+    margin: 0 auto;
+  }
+  
+  #resume-content {
+    position: relative;
+    top: 7em;
+    padding-bottom: 7em;
+    width: 960px;
     margin: 0 auto;
   }
 
@@ -392,6 +416,13 @@ p.organization {
     position: absolute;
     top: 0em;
     width: 90%;
+    margin: 0 auto;
+  }
+  
+  #resume-content {
+    position: absolute;
+    top: 0em;
+    max-width: 960px;
     margin: 0 auto;
   }
 }
