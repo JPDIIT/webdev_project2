@@ -105,35 +105,30 @@ header h1 {
     margin: 0em 0em 0em 0em;
   }
 
-div.centered {
+.centered {
   margin:auto;
   left:0;
   right:0;
   text-align: center;
 }
 
-div.centered img {
+.centered img {
   max-width: 100%;
   max-height: 100%;
   position: relative;
 }
 
-
-div.right-image {
-  float: right;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  margin-left: 0.75em;
+.right-image {
+  margin:auto;
+  left:0;
+  right:0;
   text-align: center;
 }
 
-div.left-image {
-  float: left;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
-  margin-right: 0.75em;
+.left-image {
+  margin:auto;
+  left:0;
+  right:0;
   text-align: center;
 }
 
@@ -147,6 +142,11 @@ div.left-image {
 
 .clear-right {
   clear: right;
+}
+
+figcaption {
+    font-style: italic;
+    padding-bottom: 0.5em;
 }
 
 h2.resume_category {
@@ -237,6 +237,42 @@ p.organization {
   #footer {
     position: fixed;
     padding: 3em 0 0;
+  }
+  
+  .centered {
+    margin:auto;
+    left:0;
+    right:0;
+    text-align: center;
+  }
+
+  .centered img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+
+  .right-image {
+    float: right;
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    padding-left: 0.75em;
+    text-align: center;
+  }
+
+  .left-image {
+    float: left;
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    padding-right: 0.75em;
+    text-align: center;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: smaller;
   }
 }
 
@@ -338,14 +374,14 @@ p.organization {
     background-color: transparent;
   }
 
-  div.centered {
+  .centered {
     margin:auto;
     left:0;
     right:0;
     text-align: center;
   }
 
-  div.centered img {
+  .centered img {
     max-width: 100%;
     max-height: 100%;
     position: relative;
@@ -354,21 +390,21 @@ p.organization {
     right:0;
   }
 
-  div.right-image {
+  .right-image {
     float: right;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: 50%;
     position: relative;
-    margin-left: 0.75em;
+    padding-left: 0.75em;
     text-align: center;
   }
 
-  div.left-image {
+  .left-image {
     float: left;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: 50%;
     position: relative;
-    margin-right: 0.75em;
+    padding-right: 0.75em;
     text-align: center;
   }
 
@@ -382,6 +418,11 @@ p.organization {
 
   .clear-right {
     clear: right;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: smaller;
   }
 
   h2.resume_category {
